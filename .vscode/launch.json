@@ -1,0 +1,53 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter Mobile Debug",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+                "--debug",
+            ],
+        },
+        {
+            "name": "Flutter Mobile Release",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+                "--release",
+            ],
+        },
+        {
+            "name": "Flutter Web Debug",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--debug",
+                "--web-hostname",
+                "localhost",
+                "--web-port",
+                "5000",
+            ],
+        },
+        {
+            "name": "Flutter Web Release",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--release",
+                "--web-hostname",
+                "localhost",
+                "--web-port",
+                "5000",
+            ],
+        },
+    ]
+}

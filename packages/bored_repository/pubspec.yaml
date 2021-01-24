@@ -1,0 +1,11 @@
+name: bored_repository
+description: A Dart package for the Bored domain.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  bored_api:
+    path: ../bored_api
+  meta: ^1.2.3
